@@ -14,6 +14,10 @@ declare global {
     };
     statusScreenBrickController: {
       unmount: () => void;
+    };
+    fields: {
+      mount: (container: string) => void;
+      // TODO: add other methods
     }
   }
 }
